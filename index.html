@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miyuzik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="icon2.png" alt="Miyuzik">Miyuzik</li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+     <div class="container">
+        
+        <div class="songlist">
+            <h1>System Playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.png" alt="1" >
+                    <span class="songname">Sun Lo Na</span>
+                    <span class="songlistplay"><span class="timestamp">2:54 <i class="far songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.png" alt="1" >
+                    <span class="songname">Tinka</span>
+                    <span class="songlistplay"><span class="timestamp">3:03 <i class="far songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.png" alt="1" >
+                    <span class="songname">Milon Chala</span>
+                    <span class="songlistplay"><span class="timestamp">3:03 <i class="far songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.png" alt="1" >
+                    <span class="songname">Jogi</span>
+                    <span class="songlistplay"><span class="timestamp">6:14 <i class="far songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.png" alt="1" >
+                    <span class="songname">Phir Se Shuru</span>
+                    <span class="songlistplay"><span class="timestamp">3:38 <i class="far songitemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="songBanner"></div>
+     </div>
+
+     <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" min="0"  value="0" max="100">
+        <div class="icons">
+            <!-- fontawsomeicones -->
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay" ></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+         <div class="songInfo">
+            <img src="playing.gif" width="42px" id="gif">Sun Lo Na - Suzonn
+         </div>
+     </div>
+     <script src="https://kit.fontawesome.com/b4900398a5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
